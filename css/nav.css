@@ -1,14 +1,14 @@
 /* Global rules */
 .topnav {
     margin: auto;
-    background-color: #BDE4A8;
+    background-color: #78916B;
     overflow: auto;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #2B3B2D;
+    color: #edf9e0;
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
@@ -18,6 +18,9 @@
 
 .topnav .icon {
     display: none;
+}
+
+.topnav .active {
 }
 
 /* Responsive rules - apply when screen width is less than 1200px */
