@@ -1,36 +1,52 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap');
 
 html {
-    background-color: #93caca;
-    font-family: 'Quicksand', sans-serif;
+	color: #EFF1F3;
+    background-color: #272727;
+	font-family: 'IBM Plex Sans';
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
+footer a, a:visited {
+	color: #EFF1F3;
+}
+
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: #0000000; 
+    background: #5C80BC;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+	color: #EFF1F3;
+    background: #363636;
     line-height: 2.5em;
+	border-radius: 15px 15px 0px 0px;
 }
 
 h1.logo {
-	font-family: "IBM Plex Sans";
+	font-family: "Bebas Neue";
+	text-align: center;
 	font-weight: medium;
 	font-size: 48px;
-	text-shadow: 2px 2px 2px #aaa;
+}
+
+.topnav a {
+	font-family: "Bebas Neue";
+}
+
+.subheader {
+	font-family: "Bebas Neue";
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #363636;
     overflow: auto;
+	border-radius: 0px 0px 15px 15px;
 }
 
 p {
@@ -44,13 +60,11 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #D7F2BA;
     text-decoration: none;
 }
 
