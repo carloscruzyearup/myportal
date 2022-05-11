@@ -19,8 +19,6 @@ footer a:hover {
 }
 
 ::selection {
-    color: #0000000; 
-    background: #5C80BC;
 }
 
 h1 {
@@ -51,6 +49,11 @@ main.wrapper {
     background-color: #2B3B2D;
     overflow: auto;
 	border-radius: 0px 0px 15px 15px;
+}
+
+p::selection {
+	background-color: #edf9e0;
+	color: #2B3B2D;
 }
 
 p {
